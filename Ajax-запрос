@@ -1,0 +1,8 @@
+{
+  // GET /someUrl
+  this.$http.get('/someUrl').then((response) => {
+    // успех
+  }, (response) => {
+    // или ошибка
+  });
+}
